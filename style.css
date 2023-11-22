@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    background-image: url("./img/fondo.jpg");
+}
+
+#addNote {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: none;
+}
+
+.sticky-note {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: antiquewhite;
+    padding: 4px;
+}
+
+#borrar {
+    width: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#editar {
+    width: 30px;
+    position: absolute;
+    right: 1;
+    bottom: 0;
+}
+
+#titulo {
+    font-size: 18px;
+}
